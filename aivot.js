@@ -8,7 +8,7 @@ function laatikkoFunktio(boxNumber){
         document.getElementById("laatikko1").style.lineHeight = "50px";
     }
     else if (boxNumber == 2){
-        document:getElementById("laatikko2").innerHTML =
+        document.getElementById("laatikko2").innerHTML =
         "<table style='width:100%'>" +
             "<tr>" +
                 "<th>Firstname</th>" +
