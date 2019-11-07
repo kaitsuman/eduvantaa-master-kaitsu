@@ -27,8 +27,10 @@ function laatikkoFunktio(boxNumber){
             "</tr>" +
         "</table>";
     }
-    else{
-        //toiminnallisuus puuttuu!
+    else{ (boxNumber == 3)
+        document.getElementById("laatikko3").innerHTML =
+        "<img src='https://www.sciencemag.org/sites/default/files/styles/inline__699w__no_aspect/public/bird_16x9_3.jpg?itok=7xz-mZ1c'" +
+        "alt='Birb'>";
     }
     
 }
