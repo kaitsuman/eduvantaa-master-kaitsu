@@ -2,7 +2,8 @@ function laatikkoFunktio(boxNumber){
     alert("Nyt vaihdetaan laatikko"+ boxNumber + ":n sisältöä!");
 
     if (boxNumber == 1){
-        document.getElementById("laatikko1").innerHTML = "<h1 class='uusiOtsikko1'>Tähän tulee uusi otsikko!</h1>" + 
+        document.getElementById("laatikko1").innerHTML = 
+        "<h1 class='uusiOtsikko1'>Tähän tulee uusi otsikko!</h1>" + 
         "<p>Ja tähän tietysti jotain sisältöä...</p>";
         document.getElementById("laatikko1").style.lineHeight = "50px";
     }
