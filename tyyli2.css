@@ -20,6 +20,19 @@ body{
     background-color: rgb(107, 99, 141);
     text-decoration: underline;
 }
+.resetti{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.resetti:hover{
+    background-color: #000000;
+    text-decoration: underline;
+}
 a{
     text-decoration: none;
     color: #000000;
