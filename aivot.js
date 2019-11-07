@@ -27,7 +27,7 @@ function laatikkoFunktio(boxNumber){
             "</tr>" +
         "</table>";
     }
-    else{ (boxNumber == 3)
+    else if (boxNumber == 3) {
         document.getElementById("laatikko3").innerHTML =
         "<img src='https://bit.ly/2NJy42k'" +
         "alt='Birb'>";
